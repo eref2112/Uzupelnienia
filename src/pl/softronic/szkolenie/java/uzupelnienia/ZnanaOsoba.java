@@ -1,5 +1,5 @@
 package pl.softronic.szkolenie.java.uzupelnienia;
 
 public enum ZnanaOsoba {
-    Mozart, Picasso, Goethe, Dostoevsky, Prokofiev, Dali
+    Milosz, Mozart, Picasso, Goethe, Dostoevsky, Prokofiev, Dali
 }

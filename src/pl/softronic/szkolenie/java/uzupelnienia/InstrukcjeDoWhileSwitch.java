@@ -7,7 +7,8 @@ public class InstrukcjeDoWhileSwitch {
 
     static void testWhile() {
         int i = 0;
-        while (i < 5) {
+
+        while (i > 5) {
             i++;
             System.out.println("1. Poczatek pętli : " + i);
             //if (i == 4) return;
@@ -26,7 +27,7 @@ public class InstrukcjeDoWhileSwitch {
         do {
             i++;
             System.out.println("2. Wykonuję coś dla i równego : " + i);
-        } while (i < 10);
+        } while (i > 10);
 
         System.out.println("2. Ostatnia instrukcja w 2: " + i);
     }
@@ -63,7 +64,7 @@ public class InstrukcjeDoWhileSwitch {
                 yield "...";
             }
         };
-        System.out.printf("%s był a %s%n", znanaOsoba, title);
+        System.out.printf("%s był %s%n", znanaOsoba, title);
     }
 }
 
